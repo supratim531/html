@@ -1,0 +1,32 @@
+html {
+  font-size: 22px;
+}
+
+body {
+  background-color: #333;
+  color: whitesmoke
+}
+
+a {
+  color: red;
+}
+
+a:visited {
+  color: skyblue;
+}
+
+/* This will apply when you hold the mouse click on the link */
+a:active {
+  color: blue;
+}
+
+table,
+tr,
+th,
+td,
+caption {
+  /* font-family: Cascadia Code, Menlo, Monaco, 'Courier New', monospace; */
+  border: 1px solid #eee;
+  border-collapse: collapse;
+  padding: 0.5rem;
+}

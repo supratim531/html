@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Supratim Majumder">
+  <meta name="description" content="This page contains all the things I am learning that how to create HTML">
+  <title>My First Web Page</title>
+  <link rel="icon" href="./favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+  <header>
+    <h1>My Goals For 2024</h1>
+    <nav aria-label="primary-navigation">
+      <ul>
+        <li><a href="#html">Learning HTML</a></li>
+        <li><a href="#vacation">Planning Vacation</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <hr>
+
+  <main>
+    <article id="html">
+      <h2>I'm Ready to Learn HTML</h2>
+      <p>This is my first web page.</p>
+
+      <section>
+        <h3>HTML5</h3>
+        <figure>
+          <img src="./img/html-logo.png" alt="HTML Logo" title="I'm Learning HTML5" width="250">
+          <figcaption>HTML5</figcaption>
+        </figure>
+        <figure>
+          <figcaption>An Example of HTML5 Code</figcaption>
+          <p>
+            <code>&lt;h1&gt;Hello World&lt;/h1&gt;</code>
+          </p>
+        </figure>
+      </section>
+
+      <section>
+        <h3>My Daily Schedule</h3>
+        <p>Let me tell you how...</p>
+        <ol>
+          <li>I learn more about web dev.</li>
+          <li>I plan out my schedule.</li>
+          <li>
+            I use resources from <abbr title="Mozilla Developer Network">
+              <a href="https://developer.mozilla.org">MDN</a>
+            </abbr>.
+          </li>
+        </ol>
+        <aside>
+          <h4>This is a aside</h4>
+          <details>
+            <summary>Guess the <mark>number of hours</mark> I code per day</summary>
+            <p>I start at <time datetime="08:00">8 am</time> and I write code for <time datetime="PT3H"></time> 3 hours
+              every morning</p>
+          </details>
+        </aside>
+      </section>
+      <br>
+      <section>
+        <h3>My Daily Schedule Chart</h3>
+        <table>
+          <caption>My Daily Schedule</caption>
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Time</th>
+              <th scope="col">Activity</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Morning</th>
+              <td>8 am - 11 am</td>
+              <td>Write Code</td>
+            </tr>
+            <tr>
+              <th scope="row">Break</th>
+              <td>11 am - 12 pm</td>
+              <td>Eat Lunch & Take Shower</td>
+            </tr>
+            <tr>
+              <th scope="row">Afternoon</th>
+              <td>12 pm - 5 pm</td>
+              <td>Study for Other Courses</td>
+            </tr>
+            <tr>
+              <th scope="row">Evening</th>
+              <td rowspan="2">All Other Time</td>
+              <td>Free Time</td>
+            </tr>
+            <tr>
+              <th scope="row">Night</th>
+              <td>Sleep</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3">And that's what I do every day, 5 days a week. Just eat, sleep, code & repeat</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+    </article>
+
+    <hr>
+
+    <article id="vacation">
+      <h2>I'm Also Planning a Vacation</h2>
+      <p>I've been working hard and <em>really need a getaway</em>.</p>
+      <p>I live in <abbr title="Los Angeles">LA</abbr>.So, I want to visit a beach.</p>
+
+      <section>
+        <h3>Places I'd Like to Visit</h3>
+        <ul>
+          <li>
+            <p>I've heared good things about the Caribbean.</p>
+            <figure>
+              <img src="./img/vacation.jpg" alt="Caribbean Beach" title="I want to visit to Caribbean Beach" width="250"
+                loading="lazy">
+              <figcaption>Caribbean Beach Getaway</figcaption>
+            </figure>
+          </li>
+          <li>
+            <p>I've heared also good things about going...</p>
+            <address>
+              14, Subhas Pally<br>
+              Kolkata, West Bengal 700108
+            </address>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Places I Want to Avoid</h3>
+        <dl>
+          <dt>North Pole</dt>
+          <dd>I've heared this is <strong>very cold</strong>!</dd>
+
+          <dt>South Pole</dt>
+          <dd>I've heared this is also <strong>very cold</strong>!</dd>
+
+          <dt>Mountain Tops</dt>
+          <dd>I've heared these are also <strong>very cold</strong>!</dd>
+        </dl>
+      </section>
+    </article>
+  </main>
+
+  <hr>
+
+  <footer>
+    <p>&lt;&lt;&lt; &copy; <a href="./about.html">Supratim Majumder</a> 2024 &gt;&gt;&gt;</p>
+    <p><a href="#">Back to Top</a></p>
+  </footer>
+</body>
+
+</html>
