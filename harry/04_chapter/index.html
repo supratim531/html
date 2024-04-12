@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CWH - Chapter 4</title>
+</head>
+
+<body>
+  <header>
+    <h1>This is Chapter 4</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Contact Us</h2>
+      <form action="https://httpbin.org/get">
+        <fieldset style="border-radius: 10px;">
+          <legend>Personal Information</legend>
+          <p>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" autocomplete="on" autofocus required>
+          </p>
+          <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" autocomplete="on" required>
+          </p>
+          <p>
+            <span>Choose your gender:</span>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male" required>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="other">Other</label>
+            <input type="radio" name="gender" id="other" value="other">
+          </p>
+          <p>
+            <span>Favorite sports:</span>
+            <label for="football">Football</label>
+            <input type="checkbox" name="sports" id="football" value="football">
+            <label for="cricket">Cricket</label>
+            <input type="checkbox" name="sports" id="cricket" value="cricket">
+            <label for="tennis">Tennis</label>
+            <input type="checkbox" name="sports" id="tennis" value="tennis">
+          </p>
+          <p>
+            <label for="pizza">Pizza:</label>
+            <input type="text" name="pizza" id="pizza" list="pizza-list" required>
+            <datalist id="pizza-list">
+              <option value="chicken">
+              <option value="egg">
+              <option value="paneer">
+              <option value="mutton">
+            </datalist>
+          </p>
+        </fieldset>
+        <br>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+</body>
+
+</html>
